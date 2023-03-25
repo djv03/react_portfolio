@@ -8,21 +8,21 @@ function Contact() {
     }
     return (
         <>
-            <div class="connectpage" id='contact'>
+            <div className="connectpage" id='contact'>
 
                 <h2>Wanna have chat? Let's connect</h2>
 
                 
-                <div class="form ">
-                        <input class="inputs" type="text" placeholder="enter your Name"/>
-                        <input class="inputs" type="text" placeholder="enter your email"/>
-                        <input class="inputs" type="text" placeholder="enter your contact no."/>
-                        <textarea class="inputs" name="drop your message" placeholder="drop your message" id="message"cols="50" rows="10"></textarea>
+                <div className="form ">
+                        <input className="inputs" type="text" placeholder="enter your Name"/>
+                        <input className="inputs" type="text" placeholder="enter your email"/>
+                        <input className="inputs" type="text" placeholder="enter your contact no."/>
+                        <textarea className="inputs" name="drop your message" placeholder="drop your message" id="message"cols="50" rows="10"></textarea>
                 </div>
 
-                            <div class="checkbox">
+                            <div className="checkbox">
                                 <input type="checkbox" id="vehicle1"/>
-                                    <label for="vehicle1">don't worry! We will not share your data to anyone </label><br/>
+                                    <label htmlFor='vehicle1'>don't worry! We will not share your data to anyone </label><br/>
                             </div>
 
                                     <button id="btnsubmit" onClick={click}>Submit</button>

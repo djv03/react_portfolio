@@ -12,11 +12,12 @@ html
 
 
 .connectpage{
-    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(90deg, black 0%,rgb(0, 0, 75) 50%,  rgb(1, 3, 128) 100%);
+    
 }
 h2{
     text-align: center;
@@ -55,8 +56,8 @@ h2{
     background-color:royalblue;
     border: 3px solid transparent;
     border-radius: 23px;
+    margin-top:13px ;
 
-  margin-top: 11px;
     padding: 11px;
     width: 8rem;
     font-size: 1rem;

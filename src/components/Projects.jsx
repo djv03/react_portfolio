@@ -43,12 +43,12 @@ function Projects() {
                                
                             </div>
                             <h2 className="project-heading">Rock-Paper-Scissor</h2>
-                            <p className="project-sub-heading">
+                            <div className="project-sub-heading">
                                 CLASSIC GAME, NEW WAY
                                 <p>
                                     Your past time game made with HTML,CSS AND Javascript
                                 </p>
-                            </p>
+                            </div>
                             <div className="btn-group">
                                 <a href="https://djv03rockpaperscissor.netlify.app/" target="_blank">
                                     <button className="btn-pink btn-project">View Live</button>

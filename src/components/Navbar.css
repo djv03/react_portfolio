@@ -18,3 +18,14 @@
 .nav-links a{
     text-decoration: none;
 }
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
