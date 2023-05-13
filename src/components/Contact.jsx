@@ -50,7 +50,7 @@ function Contact() {
 
                 <h2>Wanna have chat? Let's connect</h2>
 
-                    <span id='sucess'>   </span>
+                    <span id='sucess' style={{color:'white'}}>   </span>
 
                 <form action="POST" method='POST'>
 

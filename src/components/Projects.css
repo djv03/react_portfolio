@@ -1,13 +1,11 @@
 
 .project-container{
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   
 }
-
 
 .project-card{
   border: 2px solid gray;
@@ -17,7 +15,7 @@
   transition: 0.2s;
 }
 .project-card:hover{
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 .project-img>img{
   height: 200px;
@@ -31,10 +29,30 @@
 .project-about{
   color: white;
 }
+.project-skills-container>img{
+  height: 33px;
+  width: 33px;
+  margin: 3px;
+}
+.viewcode-container{
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewcode-container>p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.viewcode-container>a>img{
+  margin: 3px;
+}
 .btn-group{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 3px;
 }
 .btn-project{
   cursor: pointer;

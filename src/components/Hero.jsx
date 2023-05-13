@@ -48,7 +48,7 @@ function Hero() {
                         </span>
 
                     <div className="btnofintro">
-                        <a href="./reume.txt" target="_blank"><button className="btn">Resume</button></a>
+                        <a href="../../Dhruvin_ResumeF.pdf" target="_blank"><button className="btn">Resume</button></a>
                         <a href="./"><button className="btn">About</button></a>
                     </div>
 
