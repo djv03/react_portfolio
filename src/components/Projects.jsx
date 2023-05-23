@@ -20,9 +20,65 @@ function Projects() {
                 <div className="project-container">
                     <div className="project-card" id="project1">
 
+                        <div className="project-img">
+                            <img src="../../assets/projects_SS/merchdjv_ss.png" alt="projectbg" height={23} width={23} />
+                        </div>
+                        <div className="project-content project-content-right">
+
+                            <h2 className="project-heading">merchdjv</h2>
+                            <p className="project-about">
+                                full stack personal e-commerce
+                            </p>
+                            <div className="project-skills-container">
+                                <img src={next} alt="JS" />
+                                <img src={node} alt="JS" />
+                                <img src={tailwind} alt="JS" />
+                                <img src={mongodb} alt="JS" />
+                            </div>
+                            <div className="btn-group">
+                                <a href="https://merchdjv.netlify.app/" target="_blank">
+                                    <button className="btn-pink btn-project" >View Live</button>
+                                </a>
+                                <a className='viewcode-container' href="https://github.com/djv03/merchdjv">
+                                    <p>view code on</p>
+                                    <img className='github-icon' src={github} height={23} width={23} alt="github" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-card" id="project2">
+
+                        <div className="project-img">
+                            <img src="../../assets/projects_SS/Tazaa_ss.png" alt="projectbg" height={23} width={23} />
+                        </div>
+                        <div className="project-content project-content-right">
+
+                            <h2 className="project-heading">Tazza</h2>
+                            <p className="project-about">
+                                daily dose of news, category wise
+                            </p>
+                            <div className="project-skills-container">
+                                <img src={react} alt="JS" />
+                                <img src={bootstrap} alt="JS" />
+                                <img src={css} alt="JS" />
+                            </div>
+                            <div className="btn-group">
+                                <a href="https://merchdjv.netlify.app/" target="_blank">
+                                    <button className="btn-pink btn-project" >View Live</button>
+                                </a>
+                                <a className='viewcode-container' href="https://github.com/djv03/merchdjv">
+                                    <p>view code on</p>
+                                    <img className='github-icon' src={github} height={23} width={23} alt="github" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project-card" id="project3">
+
                         <div className="project-content ">
                             <div className="project-img">
-                                <img src="../../assets/projects_SS/MyWheather_SS.png" alt="projectbg"  />
+                                <img src="../../assets/projects_SS/MyWheather_SS.png" alt="projectbg" />
                             </div>
                             <h2 className="project-heading">MyWheather</h2>
 
@@ -39,15 +95,15 @@ function Projects() {
                                 </a>
                                 <div >
                                     <a className='viewcode-container' href="https://github.com/djv03/MyWheather-app">
-                                    <p>view code on</p>
+                                        <p>view code on</p>
                                         <img className='github-icon' src={github} height={23} width={23} alt="github" />
-                                     </a>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="project-card" id="project2">
+                    <div className="project-card" id="project4">
 
                         <div className="project-img">
                             <img src="../../assets/projects_SS/RSP_ss.png" alt="projectbg" height={23} width={23} />
@@ -72,14 +128,14 @@ function Projects() {
                                 </a>
                                 <a className='viewcode-container' href="https://github.com/djv03/rock-paper-scissors">
                                     <p>view code on</p>
-                                        <img className='github-icon' src={github} height={23} width={23} alt="github" />
-                                     </a>
+                                    <img className='github-icon' src={github} height={23} width={23} alt="github" />
+                                </a>
 
                             </div>
                         </div>
                     </div>
 
-                    <div className="project-card" id="project3">
+                    <div className="project-card" id="project5">
 
                         <div className="project-img">
                             <img src="../../assets/projects_SS/Calculator_ss.png" alt="projectbg" />
@@ -101,16 +157,16 @@ function Projects() {
                                 </a>
                                 <a className='viewcode-container' href="https://github.com/djv03/Calulator--with-React">
                                     <p>view code on</p>
-                                        <img className='github-icon' src={github} height={23} width={23} alt="github" />
-                                 </a>
+                                    <img className='github-icon' src={github} height={23} width={23} alt="github" />
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="project-card" id="project4">
+                    <div className="project-card" id="project6">
 
                         <div className="project-img">
-                            <img src="../../assets/projectbg.png" alt="projectbg" height={23} width={23} />
+                            <img src="../../assets/projects_SS/snake_ss.png" alt="projectbg" height={23} width={23} />
                         </div>
                         <div className="project-content project-content-right">
 
@@ -129,40 +185,12 @@ function Projects() {
                                 </a>
                                 <a className='viewcode-container' href="https://github.com/djv03/classical_Snake">
                                     <p>view code on</p>
-                                        <img className='github-icon' src={github} height={23} width={23} alt="github" />
-                                 </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card" id="project4">
-
-                        <div className="project-img">
-                            <img src="../../assets/projectbg.png" alt="projectbg" height={23} width={23} />
-                        </div>
-                        <div className="project-content project-content-right">
-
-                            <h2 className="project-heading">merchdjv</h2>
-                            <p className="project-about">
-                                full stack personal e-commerce
-                            </p>
-                            <div className="project-skills-container">
-                                <img src={next} alt="JS" />
-                                <img src={node} alt="JS" />
-                                <img src={tailwind} alt="JS" />
-                                <img src={mongodb} alt="JS" />
-                            </div>
-                            <div className="btn-group">
-                                <a href="https://merchdjv.netlify.app/" target="_blank">
-                                    <button className="btn-pink btn-project" >View Live</button>
+                                    <img className='github-icon' src={github} height={23} width={23} alt="github" />
                                 </a>
-                                <a className='viewcode-container' href="https://github.com/djv03/merchdjv">
-                                    <p>view code on</p>
-                                        <img className='github-icon' src={github} height={23} width={23} alt="github" />
-                                 </a>
-
                             </div>
                         </div>
                     </div>
+
 
 
 

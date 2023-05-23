@@ -18,10 +18,11 @@
   transform: scale(1.02);
 }
 .project-img>img{
-  height: 200px;
+  height: 220px;
   width: 450px;
   border: 2px solid transparent;
-  border-radius: 13px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
 }
 .project-number{
   position: relative;
