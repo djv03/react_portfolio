@@ -66,6 +66,9 @@ function Contact() {
                     </div>
                     <button id="btnsubmit" onClick={postData}>Submit</button>
                 </form>
+                <div>
+                    or mail me @ <span className='email'>dhruvinvekariya777@gmail.com</span>
+                </div>
             </div>
         </>
     )
